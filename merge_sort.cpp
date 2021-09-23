@@ -25,7 +25,6 @@ void merge(vector<int> &array,int s,int e){
 
     while (j<=e){
         temp.push_back(array[j++]);
-        /* code */
     }
     
     int k=0;
