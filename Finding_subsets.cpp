@@ -3,12 +3,14 @@
 using namespace std;
 
 void finding_subsets(char *input,char *output, int i , int j){
+   //base case
     if(input[i] =='\0'){
         output[j] = '\0';
         cout<<output<<endl;
         return;
 
     }
+    //recursive case
      output[j]= input[i];
      finding_subsets(input,output,i+1,j+1);
      finding_subsets(input,output,i+1,j);
