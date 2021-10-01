@@ -1,7 +1,8 @@
 #include<iostream>
 #include "list.h"
-// can be found out in same repository
 using namespace std;
+
+// list.h is also present in same repository.
 
 int main(){
     List l;
